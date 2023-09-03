@@ -23,13 +23,13 @@ changeColorBtn.addEventListener("click", () => {
 //   Move the button toward top and left by subtracting 3px on each side
 changeColorBtn.addEventListener('click', () => {
   
-  changeColorBtn.style.marginLeft = "-3px";
-  changeColorBtn.style.marginTop = "-3px";
-  changeColorBtn.style.boxShadow = "4px 5px 0px 0px #000";
+  changeColorBtn.style.marginLeft = "0px";
+  changeColorBtn.style.marginTop = "0px";
+  changeColorBtn.style.boxShadow = "none";
   
   setTimeout(function() {
-    changeColorBtn.style.marginLeft = "0px";
-    changeColorBtn.style.marginTop = "0px";
-    changeColorBtn.style.boxShadow = "none";
+    changeColorBtn.style.marginLeft = "-3px";
+    changeColorBtn.style.marginTop = "-3px";
+    changeColorBtn.style.boxShadow = "4px 5px 0px 0px #000";
   }, 300);
 })

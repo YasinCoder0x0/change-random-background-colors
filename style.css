@@ -24,6 +24,7 @@
   font-size: 20px;
   border: 2px solid #000;
   cursor: pointer;
+  box-shadow: 4px 5px 0px 0px #000;
 }
 
 .change-color:hover {
